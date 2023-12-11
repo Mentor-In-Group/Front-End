@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mentor.In</string>
+
+    //First Overview
+    <string name="first_overview_desc">Cari dan temukan Mentor yang\n Anda sukai</string>
+    <string name="fisrt_overview_title">Cari dan Temukan</string>
+
+    //Second Overview
+    <string name="second_overview_desc">Ngobrol dengan mentor prefessional\n dari berbagai negara</string>
+    <string name="second_overview_title">Prefessional Mentor</string>
+
+    //Third Overview
+    <string name="Third_overview_desc">Mari selesaikan masalah Anda\n bersama kami</string>
+    <string name="Third_overview_title">Selesaikan Masalahmu</string>
+
+    //Authentification
+    <string name="login">Masuk</string>
+    <string name="register">Daftar</string>
+    <string name="already_have_an_account">Sudah punya akun?,</string>
+    <string name="name">nama</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+
+    <string name="register_with_email">Daftar dengan email</string>
+    <string name="register_with_google">Daftar dengan google</string>
+    <string name="login_with_email">Masuk dengan email</string>
+    <string name="dont_have_an_account">Belum punya akun?,</string>
+    <string name="login_as_guest">Masuk sebagai Tamu</string>
+    <string name="login_with_google">Masuk dengan google</string>
+
+    <string name="name_can_t_be_empty">Nama tidak boleh kosong</string>
+    <string name="email_is_not_valid">Email tidak valid</string>
+    <string name="minimum_password_8_character">Minimal password 8 huruf</string>
+
+    <string name="job_can_be_empty">Pekerjaan tidak boleh kosong</string>
+    <string name="job">Pekerjaan</string>
+
+    //Home Page
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bottom_navigation">BottomNavit7f5ggation</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_profile">Profile</string>
+    <string name="tagline">So many prefessional mentors \nwho are proficient \nin their fields</string>
+    <string name="tagline_text">Solve your problems by consulting directly\nwith our professional mentors.</string>
+    <string name="recommended_for_you">Recommended for You</string>
+
+    //Detail Mentor Page
+    <string name="booking_mentor">Booking Mentor</string>
+    <string name="jonas_scmedmant">Jonas Scmedmant</string>
+    <string name="senior_project_manager">Senior Project Manager</string>
+    <string name="mentor_overview">Hallo perkenalkan saya Jonas, saat ini saya merupakan senior Project Manager dari PT. ABC, saya bersamai perusahaan tersebut kurang lebih sudah belasan tahun, jadi jangan ragu dengan pengalaman saya.</string>
+    <string name="education">Pendidikan</string>
+    <string name="experience">Pengalaman</string>
+</resources>

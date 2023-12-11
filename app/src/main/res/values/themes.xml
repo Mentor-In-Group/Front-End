@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MentorIn" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#2192FF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="backgroundColor">#FFFFFF</item>
+        <item name="colorOnBackground">#000000</item>
+        <item name="trackColorActive">#000000</item>
+        <item name="trackColorInactive">#B9B9B9</item>
+        <item name="colorAccent">#2192FF</item>
+        <item name="colorControlNormal">#000000</item>
+        <item name="colorOnSecondary">#424242</item>
+
+
+
+
+    </style>
+
+    <style name="Theme.MentorIn" parent="Base.Theme.MentorIn" />
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/mentoring_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="19dp"
+        android:text="26 November"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/mentor_image_cn"
+        android:layout_width="wrap_content"
+        app:cardCornerRadius="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/mentoring_date"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/mentor_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/image_recommend_1"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:id="@+id/mentor_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="10dp"
+        app:layout_constraintStart_toEndOf="@id/mentor_image_cn"
+        app:layout_constraintTop_toTopOf="@id/mentor_image_cn">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorOnSecondary"
+            android:text="Mentoring with "/>
+        <TextView
+            android:textColor="?attr/colorOnSecondary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jonas_schmedmant"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mentoring_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="@+id/mentor_name"
+        app:layout_constraintTop_toBottomOf="@id/mentor_name"
+        app:layout_constraintStart_toEndOf="@id/mentor_image_cn">
+
+        <TextView
+            android:id="@+id/work_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?attr/colorOnSecondary"
+            android:textSize="9sp"
+            android:text="12.00 - 12.00 PM"
+            />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/btn_login"
+        android:layout_width="60dp"
+        android:layout_height="16dp"
+        app:cardCornerRadius="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+        app:cardBackgroundColor="?attr/colorPrimary"
+        app:layout_constraintStart_toEndOf="@id/mentor_image_cn"
+        app:layout_constraintTop_toBottomOf="@id/mentoring_time">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="?attr/colorOnPrimary"
+            android:gravity="center"
+            android:textSize="9sp"
+            android:text="Join Meet"/>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

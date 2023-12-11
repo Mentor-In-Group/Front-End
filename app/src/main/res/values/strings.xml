@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Mentor.in</string>
+
+    //First Overview
+    <string name="first_overview_desc">Search and find a mentor\n you like</string>
+    <string name="fisrt_overview_title">Search and Find</string>
+
+    //Second Overview
+    <string name="second_overview_desc">Chat with a prefessional mentor\n from various countries</string>
+    <string name="second_overview_title">Prefessional Mentor</string>
+
+    //Third Overview
+    <string name="Third_overview_desc">Lets solve your problem\n with us</string>
+    <string name="Third_overview_title">Solve Your problems</string>
+
+    //Authentification
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?,</string>
+    <string name="name">name</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="register_with_email">Register with email</string>
+    <string name="register_with_google">Register with google</string>
+    <string name="login_with_email">Login with Email</string>
+    <string name="dont_have_an_account">Dont have an account?,</string>
+    <string name="login_as_guest">Login as Guest</string>
+    <string name="login_with_google">Login with google</string>
+    <string name="name_can_t_be_empty">Name can\'t be empty</string>
+    <string name="email_is_not_valid">Email is not valid</string>
+    <string name="minimum_password_8_character">Minimum password 8 character</string>
+    <string name="job_can_be_empty">Job can\' be empty</string>
+    <string name="job">Job</string>
+
+    //Home Page
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_profile">Profile</string>
+    <string name="tagline">Begitu banyak mentor-mentor\nprefessional yang\nmahir dibidangnya</string>
+    <string name="tagline_text">Selesaikan masalah Anda dengan melakukan\nkonsultasi secara langsung dengan mentor-\nmentor prefessional kami</string>
+    <string name="recommended_for_you">Direkomendasikan untuk Anda</string>
+
+    //Detail Mentor Page
+    <string name="booking_mentor">Booking Mentor</string>
+    <string name="jonas_scmedmant">Jonas Scmedmant</string>
+    <string name="senior_project_manager">Senior Project Manager</string>
+    <string name="mentor_overview">Hallo perkenalkan saya Jonas, saat ini saya merupakan senior Project Manager dari PT. ABC, saya bersamai perusahaan tersebut kurang lebih sudah belasan tahun, jadi jangan ragu dengan pengalaman saya.</string>
+    <string name="education">Education</string>
+    <string name="experience">Experience</string>
+    <string name="program_study">Information System</string>
+    <string name="university">Stanford University</string>
+    <string name="saparator">·</string>
+    <string name="_12_may_8_july_2005">12 May - 8 July 2005</string>
+    <string name="company">PT. ABC</string>
+    <string name="project_manager">Project Manager</string>
+    <string name="jonas_schmedmant">Jonas Schmedmant</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MentorIn" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+
+        <item name="colorPrimary">#2192FF</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="backgroundColor">#333333</item>
+        <item name="colorOnBackground">#FFFFFF</item>
+        <item name="trackColorActive">#B9B9B9</item>
+        <item name="trackColorInactive">#808080</item>
+        <item name="colorAccent">#2192FF</item>
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="colorOnSecondary">#F5F5F5</item>
+
+
+    </style>
+</resources>
