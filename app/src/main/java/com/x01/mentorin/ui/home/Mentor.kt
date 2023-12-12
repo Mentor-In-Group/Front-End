@@ -6,5 +6,6 @@ data class Mentor(
     val imageUrl: String,
     val rating: Float,
     val education: List<Education>,
-    val experience: List<Experience>
+    val experience: List<Experience>,
+    val schedule: List<Schedule>
 )

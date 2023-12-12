@@ -9,8 +9,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textStyle="bold"
-        android:textSize="19dp"
-        android:text="26 November"
+        android:textSize="13sp"
+        android:text="@string/_26_november"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"/>
 
@@ -32,7 +32,7 @@
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
-        android:id="@+id/mentor_name"
+        android:id="@+id/mentor_name_cn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -43,45 +43,48 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="9sp"
             android:textColor="?attr/colorOnSecondary"
-            android:text="Mentoring with "/>
+            android:text="@string/mentoring_with"/>
         <TextView
+            android:id="@+id/mentor_name"
             android:textColor="?attr/colorOnSecondary"
+            android:textSize="9sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/jonas_schmedmant"/>
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/mentoring_time"
+        android:id="@+id/mentoring_time_cn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="1dp"
-        app:layout_constraintStart_toStartOf="@+id/mentor_name"
-        app:layout_constraintTop_toBottomOf="@id/mentor_name"
+        app:layout_constraintStart_toStartOf="@+id/mentor_name_cn"
+        app:layout_constraintTop_toBottomOf="@id/mentor_name_cn"
         app:layout_constraintStart_toEndOf="@id/mentor_image_cn">
 
         <TextView
-            android:id="@+id/work_date"
+            android:id="@+id/mentoring_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="?attr/colorOnSecondary"
             android:textSize="9sp"
-            android:text="12.00 - 12.00 PM"
+            android:text="@string/_12_00_12_00_pm"
             />
     </LinearLayout>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/btn_login"
-        android:layout_width="60dp"
+        android:layout_width="70dp"
         android:layout_height="16dp"
         app:cardCornerRadius="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginStart="10dp"
         app:cardBackgroundColor="?attr/colorPrimary"
         app:layout_constraintStart_toEndOf="@id/mentor_image_cn"
-        app:layout_constraintTop_toBottomOf="@id/mentoring_time">
+        app:layout_constraintTop_toBottomOf="@id/mentoring_time_cn">
 
         <TextView
             android:layout_width="match_parent"
@@ -89,6 +92,6 @@
             android:textColor="?attr/colorOnPrimary"
             android:gravity="center"
             android:textSize="9sp"
-            android:text="Join Meet"/>
+            android:text="@string/join_meet"/>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

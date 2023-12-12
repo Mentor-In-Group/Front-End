@@ -54,4 +54,18 @@
     <string name="mentor_overview">Hallo perkenalkan saya Jonas, saat ini saya merupakan senior Project Manager dari PT. ABC, saya bersamai perusahaan tersebut kurang lebih sudah belasan tahun, jadi jangan ragu dengan pengalaman saya.</string>
     <string name="education">Pendidikan</string>
     <string name="experience">Pengalaman</string>
+    <string name="program_study">Information System</string>
+    <string name="university">Stanford University</string>
+    <string name="saparator">·</string>
+    <string name="_12_may_8_july_2005">12 May - 8 July 2005</string>
+    <string name="company">PT. ABC</string>
+    <string name="project_manager">Project Manager</string>
+    <string name="jonas_schmedmant">Jonas Schmedmant</string>
+
+    //Schedule Page
+    <string name="your_schedule">Jadwal Anda</string>
+    <string name="join_meet">Gabung Meet</string>
+    <string name="mentoring_with">Mentoring bersama</string>
+    <string name="_12_00_12_00_pm">12.00 - 12.00 PM</string>
+    <string name="_26_november">26 November</string>
 </resources>

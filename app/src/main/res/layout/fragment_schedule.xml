@@ -39,7 +39,7 @@
         android:id="@+id/tv_your_schedule"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your Schedule"
+        android:text="@string/your_schedule"
         android:textSize="19dp"
         android:layout_marginTop="40dp"
         android:textStyle="bold"
@@ -48,6 +48,7 @@
         />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_schedule"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="20dp"

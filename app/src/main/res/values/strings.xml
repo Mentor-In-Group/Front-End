@@ -57,4 +57,10 @@
     <string name="company">PT. ABC</string>
     <string name="project_manager">Project Manager</string>
     <string name="jonas_schmedmant">Jonas Schmedmant</string>
+
+    <string name="your_schedule">Your Schedule</string>
+    <string name="join_meet">Join Meet</string>
+    <string name="mentoring_with">Mentoring with</string>
+    <string name="_12_00_12_00_pm">12.00 - 12.00 PM</string>
+    <string name="_26_november">26 November</string>
 </resources>

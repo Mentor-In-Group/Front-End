@@ -6,6 +6,7 @@ import android.widget.ImageView
 import com.x01.mentorin.ui.home.Education
 import com.x01.mentorin.ui.home.Experience
 import com.x01.mentorin.ui.home.Mentor
+import com.x01.mentorin.ui.home.Schedule
 
 fun playAnimation(image: ImageView){
     ObjectAnimator.ofFloat(image, View.TRANSLATION_X, -30f, 30f).apply {
@@ -61,6 +62,14 @@ val listMentor: List<Mentor> = listOf<Mentor>(
                 "2010 - present"
             )
         ),
+        listOf(
+            Schedule(
+                "Jonas Schmedmant",
+                "/",
+                "22 Desember 2023",
+                "!2.00 - 13.00 PM"
+            )
+        ),
 
     ),
     Mentor(
@@ -92,34 +101,12 @@ val listMentor: List<Mentor> = listOf<Mentor>(
                 "2010 - present"
             )
         ),
-    ),
-    Mentor(
-        "Fadil Hijayat",
-        "Project Manager",
-        "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        4.8F,
         listOf(
-            Education(
-                "Information System",
-                "Stamford University",
-                "12 May - 8 July 2005"
-            ),
-            Education(
-                "Information System",
-                "Stamford University",
-                "12 May - 8 July 2005"
-            ),
-            Education(
-                "Information System",
-                "Stamford University",
-                "12 May - 8 July 2005"
-            )
-        ),
-        listOf(
-            Experience(
-                "Senior Project Manager",
-                "PT. ABC",
-                "2010 - present"
+            Schedule(
+                "Jonas Schmedmant",
+                "/",
+                "22 Desember 2023",
+                "!2.00 - 13.00 PM"
             )
         ),
     ),
@@ -152,34 +139,12 @@ val listMentor: List<Mentor> = listOf<Mentor>(
                 "2010 - present"
             )
         ),
-    ),
-    Mentor(
-        "Fadil Hijayat",
-        "Project Manager",
-        "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        4.8F,
         listOf(
-            Education(
-                "Information System",
-                "Stamford University",
-                "12 May - 8 July 2005"
-            ),
-            Education(
-                "Information System",
-                "Stamford University",
-                "12 May - 8 July 2005"
-            ),
-            Education(
-                "Information System",
-                "Stamford University",
-                "12 May - 8 July 2005"
-            )
-        ),
-        listOf(
-            Experience(
-                "Senior Project Manager",
-                "PT. ABC",
-                "2010 - present"
+            Schedule(
+                "Jonas Schmedmant",
+                "/",
+                "22 Desember 2023",
+                "!2.00 - 13.00 PM"
             )
         ),
     ),
@@ -210,6 +175,90 @@ val listMentor: List<Mentor> = listOf<Mentor>(
                 "Senior Project Manager",
                 "PT. ABC",
                 "2010 - present"
+            )
+        ),
+        listOf(
+            Schedule(
+                "Jonas Schmedmant",
+                "/",
+                "22 Desember 2023",
+                "12.00 - 13.00 PM"
+            )
+        ),
+    ),
+    Mentor(
+        "Fadil Hijayat",
+        "Project Manager",
+        "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        4.8F,
+        listOf(
+            Education(
+                "Information System",
+                "Stamford University",
+                "12 May - 8 July 2005"
+            ),
+            Education(
+                "Information System",
+                "Stamford University",
+                "12 May - 8 July 2005"
+            ),
+            Education(
+                "Information System",
+                "Stamford University",
+                "12 May - 8 July 2005"
+            )
+        ),
+        listOf(
+            Experience(
+                "Senior Project Manager",
+                "PT. ABC",
+                "2010 - present"
+            )
+        ),
+        listOf(
+            Schedule(
+                "Jonas Schmedmant",
+                "/",
+                "22 Desember 2023",
+                "!2.00 - 13.00 PM"
+            )
+        ),
+    ),
+    Mentor(
+        "Fadil Hijayat",
+        "Project Manager",
+        "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        4.8F,
+        listOf(
+            Education(
+                "Information System",
+                "Stamford University",
+                "12 May - 8 July 2005"
+            ),
+            Education(
+                "Information System",
+                "Stamford University",
+                "12 May - 8 July 2005"
+            ),
+            Education(
+                "Information System",
+                "Stamford University",
+                "12 May - 8 July 2005"
+            )
+        ),
+        listOf(
+            Experience(
+                "Senior Project Manager",
+                "PT. ABC",
+                "2010 - present"
+            )
+        ),
+        listOf(
+            Schedule(
+                "Jonas Schmedmant",
+                "/",
+                "22 Desember 2023",
+                "!2.00 - 13.00 PM"
             )
         ),
     ),
